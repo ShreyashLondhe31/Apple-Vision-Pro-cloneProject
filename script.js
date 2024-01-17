@@ -39,7 +39,7 @@ gsap.to("#page video",{
         start: `2% top`,
         end: `bottom top`,
         scroller: `#main`,
-        markers: true
+        
     },
     onStart:()=> {
         document.querySelector("#page video").play()
@@ -73,7 +73,6 @@ var tl = gsap.timeline({
         start: `top top`,
         scrub: `1`,
         scroller: `#main`,
-        markers: true,
         pin: true
     }
 })
@@ -89,7 +88,6 @@ var tl1 = gsap.timeline({
         start: `top top`,
         scrub: `1`,
         scroller: `#main`,
-        markers: true,
         pin: true
     }
 })
@@ -104,7 +102,6 @@ var tl2 = gsap.timeline({
         start: `top top`,
         scrub: `1`,
         scroller: `#main`,
-        markers: true,
         pin: true
     }
 })
